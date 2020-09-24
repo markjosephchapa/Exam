@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+
+	<link href="https:/fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+	<link href="https:/fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+	<link href="https:/fonts.googleapis.com/css?family=Open+Sans+Condensed" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+
+<body>
+	<h1>Survey Form</h1>
+<div class="label">
+	<p>Answer the following questions correctly.</p>
+	<form action="mailto:giofriginal26@gmail.com" method="post" enctype="text/plain">
+	<label>Name </label>
+	   <input type="text" name="Name" placeholder="Enter your name" size="50"><br>
+    <br>
+	
+	<label>Email </label>
+       <input type="email" name="Email" placeholder="Enter your email address" size="50"><br>
+	<br>
+	<label>On a scale of 1-10, how good was it?</label>
+		<input type="number" name="Rate " min="1" max="10" placeholder="Enter a number between 1 and 10" size="50"><br>
+	<br>
+	<label>When did it happen? </label>
+	<select>
+			<option value="At home">At home</option>
+			<option value="Somewhere else">Somewhere else</option>
+	</select><br><br>
+
+	
+	<label>What time of a did it happen? </label><br>
+	   <input type="radio" id="male" name="place" value="Morning">Morning<br>
+	   <input type="radio" id="female" name="place" value="Afternoon"> Afternoon<br>
+	   <input type="radio" id="other" name="place" value="Evening">Evening<br>
+	   <br>
+
+	<label>What emotions did you Experience?(Select all that apply)</label><br>
+	   <input type="checkbox" name="Excited" value="Excited">Excited<br>
+	   <input type="checkbox" name="Humbled" value="Humbled">Humbled<br>
+	   <input type="checkbox" name="Elated" value="Elated">Elated<br>
+	   <input type="checkbox" name="Loved" value="Loved">Loved<br>
+	   <input type="checkbox" name="Enthusiastic" value="Enthusiastic">Enthusiastic<br>
+
+	<label>Please describe you experience </label>
+	   <textarea type="text" name="describe" cols="50" rows="5" placeholder="Enter your experience here"></textarea>
+	<br><br>
+<div class="center">
+	<button>Submit</button>
+	<br><br>
+</div>
+</div>
+</form>
+
+</body>
+</html>

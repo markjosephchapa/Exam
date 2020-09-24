@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	background-color: #a9d7e9;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+form{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+div{
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+label{
+	display: inline-block;
+    vertical-align: middle;
+	text-align: right;
+	height: 15px;
+}
+input{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	border-style: groove;
+	border-color: gray;
+}
+h1{
+	text-align: center;
+}
+select{
+	text-align: right;
+}
+p{
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+
+
+.name{
+	text-align: right;
+}
+.head{
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
